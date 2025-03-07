@@ -63,7 +63,6 @@ class GenericButton():
         gameDisplay.blit(TextSurf, TextRect)
 
 running = True
-print(pygame.font.get_fonts())
 
 while running:
     for event in pygame.event.get():
